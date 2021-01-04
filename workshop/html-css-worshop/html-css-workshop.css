@@ -1,0 +1,45 @@
+header{
+    height: 100px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 60px;
+    padding:10px;
+}
+button{
+    background-color: tan;
+    font-size: 20px;
+}
+section{
+    display: flex;
+}
+nav{
+float: left;
+padding: 20px;
+width:20%;
+background-color: silver;
+font-size:20px ;
+}
+article{
+    padding: 20px;
+    width:40%;
+    background-color: skyblue;
+    }
+aside{
+    float: right;
+    padding: 20px;
+    width:30%;
+    font-size: 15px;
+    background-color: silver;
+
+}
+footer 
+{
+    height: 100px;
+    background-color:sandybrown;
+    text-align: center;
+    font-size: 30px;
+    padding:10px;
+    display: block;
+}
+
+

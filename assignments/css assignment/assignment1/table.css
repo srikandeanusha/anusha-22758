@@ -1,0 +1,15 @@
+table , th, td{
+    border: 1px solid silver;
+}
+#row1{
+background-color: yellowgreen;
+}
+#row2{
+    background-color: yellowgreen;
+    }
+#row3{
+        background-color: yellowgreen;
+     }
+     #hl{
+         background-color: lightslategrey;
+     }

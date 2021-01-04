@@ -1,0 +1,25 @@
+.input, .disabled, .error {
+  border-radius: 3px;
+  width: 300px;
+  height: 36px;
+  border: 1px solid #ccc;
+  font-style: SegoUI;
+  font-size: 13px;
+  padding-left: 10px;
+  color: #666666;
+  background-color: #ffffff;
+}
+
+.disabled {
+  border: 1px solid #cccccc;
+  background-color: #eeeeee;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+.error {
+  background-color: #fde7e1;
+  border: 1px solid #f44336;
+  color: #f44336;
+}
+/*# sourceMappingURL=assignment1.css.map */

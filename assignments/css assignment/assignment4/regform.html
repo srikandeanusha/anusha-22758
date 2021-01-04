@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <link rel="stylesheet" href="regform.css">
+    <script>
+        function myfun()
+        {
+            document.getElementById("sub").reset();
+        }
+    </script>
+    <h1>Registration form</h1>
+    <form id="sub">
+       <div class="grid-container">
+        <div>Employee ID:</div>   
+    <div><input type="number" name="empid" min="10001" max="15000"></div>
+    <div>First Name:</div>
+    <div><input type="text" name="fname" placeholder="First Name" 
+        pattern="[a-z]+[A-Z]" min="3" required max="15" ></div>
+    <div>Last Name:</div>
+    <div><input type="text" name="lname"  pattern="[a-z]+[A-Z]" min="5" max="25"></div>
+    <div>Department:</div>
+    <div>
+        <form>
+        <input type="radio" id="it" value="IT">
+        <label for="IT">IT</label><br>
+        <input type="radio" id="hr" value="HR">
+        <label for="HR">HR</label><br>
+        <input type="radio" id="finance" value="Finance">
+        <label for="Finance">Finance</label><br>
+        <input type="radio" id="admin" value="Admin">
+        <label for="Admin">Admin</label><br>
+        </form>
+        </div>
+    <div>Date of Joining:</div>
+    <div><input type="date" name="date"></div>
+    <div>Email:</div>
+    <div><input type="email" name="email" required></div>
+    <div>Contact No:</div>
+    <div><input type="tel" name="contactno" maxlength="10" required></div>
+    <div>Address:</div>
+        <div><textarea id="address" name="address" row="10" cols="10"></textarea></div>
+    <div>Training Programs to be attended:</div>
+    <div>
+        <input type="checkbox" id="web basics" name="web basics" value="web basics">
+        <label for="web basics">Web Basics</label><br>
+        <input type="checkbox" id="c#" name="c#" value="c#">
+        <label for="c#">C#</label><br>
+        <input type="checkbox" id="Entity Framework" name="Entity Framework" 
+                value="Entity Framework">
+        <label for="Entity Framework">Entity Framework</label><br>
+        <input type="checkbox" id="ASP NET MVC" name="ASP NET MVC" value="ASP NET MVC">
+        <label for="ASP NET MVC">ASP NET MVC</label><br>
+        <br>
+    </div>
+    <div><input type="button" onclick="location.href='submission.html'" value="submit"></div>
+    <div><input type="button" onclick="myfun()" value="Cancel"></div>
+    </form>
+    </body>

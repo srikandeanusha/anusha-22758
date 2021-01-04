@@ -1,0 +1,64 @@
+body{
+    background-color:silver;
+}
+div{
+     
+    float: right;
+    background: silver;
+}
+.div1
+{
+    width: 600px;
+    background: green;
+}
+
+header 
+{
+   
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    width:200px;
+
+}
+section
+{
+    display: flex;
+    
+}
+nav 
+{
+   width: 33%;
+    background:black;
+    padding: 20px;
+}
+article
+{
+   
+    width: 33%;
+    background-color: black;
+    padding: 10px;
+
+}
+.div2
+{
+    align-content: stretch;
+    width: 33%;
+}
+aside
+{
+    height: 250px;
+    width: 30%;
+    background-color: black;
+    color:violet;
+    float: right;
+    
+}
+footer 
+{
+    height: 250px;
+    background-color:black;
+    padding: 10px;
+    text-align: left;
+    color:violet;
+}

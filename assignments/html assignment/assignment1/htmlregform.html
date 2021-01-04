@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head></head>
+<body>    
+    <form>
+        Name:<input type="text" id="name" size="7" maxlength="7" required><br>
+        Phone Number:<input type="tel" id="phone" 
+        maxlength="10" pattern="^[1-9]+[0-9]{9}"><br>
+        Email:<input type="email" required><br>
+        <h2>PaymentDetails</h2>
+        <label for="payment">cards Accepted:</label><br>
+        <div class="icons">
+            <i class="fa fa-cc-visa" style="color: chocolate;"></i>
+            <i class="fa fa-cc-visa" style="color: chocolate;"></i>
+        </div>
+
+        <select id="payment">
+        <option value="hdfc">HDFC</option>
+        <option value="icici">ICICI</option>
+        <option value="amexp">AmericanExpress</option>
+        <option value="andhra">Andhra</option>
+            </select><br>
+            CardNumber:<input type="number"><br>
+            CVV:<input type="number" size="3"><br>
+            <label for="expirydate">Expirydate:</label>
+            <select>
+                <option value="01">Jan</option>
+                <option value="02">Feb</option>
+                <option value="03">Mar</option>
+                <option value="04">Apr</option>
+                <option value="05">May</option>
+                <option value="06">Jun</option>
+                <option value="07">Jul</option>
+                <option value="08">Aug</option>
+                <option value="09">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+            </select>
+            <select>
+                <option value="17">2017</option>
+                <option value="18">2018</option>
+                <option value="19">2019</option>
+                <option value="20">2020</option>
+                <option value="21">2021</option>
+                <option value="22">2022</option>
+                <option value="23">2023</option>
+            </select><br>
+            <input type="submit" value="submit">
+            <input type="submit" value="cancel">
+            <h1>Login Details</h1>
+            <label for="username"></label>
+            UserName:<input type="text"  maxlength="10" 
+            placeholder="Username" required><br>
+            Password:<input type="number" pattern="^[a-zA-Z0-9][@]{10}" 
+            placeholder="Password" required><br>
+            ConfirmPassword:<input type="number" pattern="^[a-zA-Z0-9][@]{10}" 
+            placeholder="ConfirmPassword" required><br>
+            <input type="submit" value="submit">
+
+    </form>
+</body>

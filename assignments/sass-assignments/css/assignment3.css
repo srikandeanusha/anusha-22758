@@ -1,0 +1,85 @@
+.mylabel:after {
+  content: "My Label";
+  color: black;
+}
+
+.mylabel:hover:after {
+  content: "MY LABEL";
+  background-color: rgba(255, 247, 179, 0.993);
+  color: blue;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  border: 1px solid #0a0a0a;
+  grid-column-gap: 10px;
+  height: 500px;
+  padding: 20px;
+  background-color: blue;
+}
+
+.left {
+  background-color: pink;
+  border: 1px solid black;
+  color: #17d0dd;
+}
+
+.right {
+  background-color: pink;
+  border: 1px solid black;
+  color: #17d0dd;
+  position: relative;
+}
+
+.button {
+  background-color: #3324c0;
+  border: 0;
+  border-radius: 8px;
+  bottom: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1em 2em;
+  position: absolute;
+  right: 8px;
+}
+
+.container2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  border: 1px solid #0a0a0a;
+  grid-column-gap: 10px;
+  height: 500px;
+  padding: 20px;
+  background-color: pink;
+}
+
+.left {
+  background-color: #e6520e;
+  border: 1px solid black;
+  color: black;
+}
+
+.right {
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+  position: relative;
+}
+
+.button {
+  background-color: plum;
+  border: 0;
+  border-radius: 8px;
+  bottom: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1em 2em;
+  position: absolute;
+  right: 8px;
+}
+/*# sourceMappingURL=assignment3.css.map */

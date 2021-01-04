@@ -1,0 +1,85 @@
+.header {
+  text-align: center;
+  background-color: tomato;
+  height: 60px;
+  padding: 2px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    padding: 10px;
+    max-width: 960px;
+    margin: 2em auto;
+  }
+}
+
+.id3 img {
+  background-size: contain;
+}
+
+.id1 img {
+  background-size: cover;
+}
+
+.id2 {
+  background-color: orange;
+}
+
+.id4 {
+  background-color: plum;
+}
+
+.id2 li {
+  height: 10px;
+  width: 30px;
+  background-color: violet;
+}
+
+.footer {
+  background-color: lightseagreen;
+  text-align: center;
+}
+
+.breadcrumb {
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+.breadcrumb li {
+  float: left;
+}
+
+.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 120px 10px 65px;
+  background: black;
+  background: black;
+  position: relative;
+  display: block;
+}
+
+@media only screen and (max-width: 620px) {
+  .id1, .id2, .id4 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .header {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=rwd-worshop.css.map */
